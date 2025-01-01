@@ -21,36 +21,36 @@ To install Watchtower CLI, follow these steps:
    git clone https://github.com/yourusername/watchtowercli.git
    cd watchtowercli
 
-	2.	Install dependencies:
+2.	Install dependencies:
 
-go mod tidy
+    go mod tidy
 
 
-	3.	Build the project (optional):
+3.	Build the project (optional):
 
-go build
+    go build
 
 
 
 Setup
-	1.	Open terminal and run the following to add an alias to your shell configuration:
+1.	Open terminal and run the following to add an alias to your shell configuration:
 
-nano ~/.zshrc
-
-
-	2.	Add the following line at the end of the file:
-
-alias watch_sync_programs="go run /Users/mrpit/Documents/GitHub/watchtowercli/cmd/main.go syncprograms"
+    nano ~/.zshrc
 
 
-	3.	Save and exit the file. Then, run:
+2.	Add the following line at the end of the file:
 
-source ~/.zshrc
+    alias watch_sync_programs="go run /Users/mrpit/Documents/GitHub/watchtowercli/cmd/main.go syncprograms"
 
 
-	4.	Now, you can run the program using the alias:
+3.	Save and exit the file. Then, run:
 
-watch_sync_programs
+    source ~/.zshrc
+
+
+4.	Now, you can run the program using the alias:
+
+    watch_sync_programs
 
 
 
@@ -83,30 +83,30 @@ watch_sync_programs --path /path/to/your/json/files
 Contributing
 
 We welcome contributions! To get involved:
-	1.	Fork the repository on GitHub.
-	2.	Clone your fork to your local machine:
+1.	Fork the repository on GitHub.
+2.	Clone your fork to your local machine:
 
-git clone https://github.com/yourusername/watchtowercli.git
-
-
-	3.	Create a branch for your feature or bugfix:
-
-git checkout -b feature-branch
+    git clone https://github.com/yourusername/watchtowercli.git
 
 
-	4.	Commit your changes:
+3.	Create a branch for your feature or bugfix:
 
-git commit -m "Add new feature or fix bug"
-
-
-	5.	Push the branch to your fork:
-
-git push origin feature-branch
+    git checkout -b feature-branch
 
 
-	6.	Submit a pull request on GitHub.
+4.	Commit your changes:
 
-Please make sure to write tests and include relevant documentation for your contributions.
+    git commit -m "Add new feature or fix bug"
+
+
+5.	Push the branch to your fork:
+
+    git push origin feature-branch
+
+
+6.	Submit a pull request on GitHub.
+
+    Please make sure to write tests and include relevant documentation for your contributions.
 
 License
 
