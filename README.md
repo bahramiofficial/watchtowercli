@@ -22,34 +22,34 @@ To install Watchtower CLI, follow these steps:
    cd watchtowercli
 
 2.	Install dependencies:
-
+    ```bash
     go mod tidy
 
 
 3.	Build the project (optional):
-
+    ```bash
     go build
 
 
 
 Setup
 1.	Open terminal and run the following to add an alias to your shell configuration:
-
+    ```bash
     nano ~/.zshrc
 
 
 2.	Add the following line at the end of the file:
-
+    ```bash
     alias watch_sync_programs="go run /Users/mrpit/Documents/GitHub/watchtowercli/cmd/main.go syncprograms"
 
 
 3.	Save and exit the file. Then, run:
-
+    ```bash
     source ~/.zshrc
 
 
 4.	Now, you can run the program using the alias:
-
+    ```bash
     watch_sync_programs
 
 
@@ -85,27 +85,27 @@ Contributing
 We welcome contributions! To get involved:
 1.	Fork the repository on GitHub.
 2.	Clone your fork to your local machine:
-
+    ```bash
     git clone https://github.com/yourusername/watchtowercli.git
 
 
 3.	Create a branch for your feature or bugfix:
-
+    ```bash
     git checkout -b feature-branch
 
 
 4.	Commit your changes:
-
+    ```bash
     git commit -m "Add new feature or fix bug"
 
 
 5.	Push the branch to your fork:
-
+    ```bash
     git push origin feature-branch
 
 
 6.	Submit a pull request on GitHub.
-
+    ```bash
     Please make sure to write tests and include relevant documentation for your contributions.
 
 License
