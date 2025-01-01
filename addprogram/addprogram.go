@@ -1,4 +1,4 @@
-package addprogram
+package syncprograms
 
 import (
 	"log"
@@ -8,7 +8,7 @@ import (
 	watchsyncprograms "github.com/bahramiofficial/watchtower/src/utilities/programs"
 )
 
-func AddPrograms() {
+func SyncProgramWithJson() {
 	// Get the directory of the script
 	_, scriptPath, _, ok := runtime.Caller(0)
 	if !ok {
