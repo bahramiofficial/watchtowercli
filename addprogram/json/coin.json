@@ -1,0 +1,6 @@
+
+{
+    "programName":"coin.com",
+    "scopes":["coin.com","m.coin.com","ss.coin.com"],
+    "otoscopes":["xds.coin.com"]
+}

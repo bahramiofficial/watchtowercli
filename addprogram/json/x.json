@@ -1,0 +1,6 @@
+
+{
+    "programName":"x.com",
+    "scopes":["x.com","m.x.com","ss.x.com"],
+    "otoscopes":["xds.x.com"]
+}

@@ -1,7 +1,7 @@
 package main
 
-import watchsyncprograms "github.com/bahramiofficial/watchtower/src/utilities/programs"
+import "github.com/bahramiofficial/programs/addprogram"
 
 func main() {
-	watchsyncprograms.SyncProgramToDb()
+	addprogram.AddPrograms()
 }

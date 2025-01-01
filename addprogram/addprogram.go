@@ -16,6 +16,6 @@ func AddPrograms() {
 	}
 
 	// init path json files
-	dirPath := filepath.Join(filepath.Dir(scriptPath), "json")
+	dirPath := filepath.Join(filepath.Dir(scriptPath), "json/")
 	watchsyncprograms.SyncProgramToDb(dirPath)
 }
