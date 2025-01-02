@@ -1,4 +1,4 @@
-module github.com/bahramiofficial/programs
+module github.com/bahramiofficial/watchtowercli
 
 go 1.22.5
 

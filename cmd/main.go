@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	syncprograms "github.com/bahramiofficial/programs/addprogram"
+	syncprograms "github.com/bahramiofficial/watchtowercli/addprogram"
 )
 
 func main() {
