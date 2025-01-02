@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	syncprograms "github.com/bahramiofficial/watchtowercli/addprogram"
+	"github.com/bahramiofficial/watchtowercli/syncprograms"
 )
 
 func main() {
@@ -25,4 +25,6 @@ func main() {
 		fmt.Printf("Unknown command: %s\n", command)
 		fmt.Println("Available commands: syncprograms ")
 	}
+
+	// todo get verson 203  add subdinder and crtsh and alis
 }

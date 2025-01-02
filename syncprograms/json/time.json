@@ -1,6 +1,6 @@
 
 {
     "programName":"time.ir",
-    "scopes":[],
+    "scopes":["time.ir"],
     "otoscopes":[]
 }
