@@ -2,7 +2,7 @@ module github.com/bahramiofficial/watchtowercli
 
 go 1.22.5
 
-require github.com/bahramiofficial/watchtower v0.0.202
+require github.com/bahramiofficial/watchtower v0.0.204
 
 require (
 	github.com/jackc/pgpassfile v1.0.0 // indirect
